@@ -5,6 +5,8 @@ company: 'Freelance'
 location: 'Remote'
 range: 'January 2025 - Present'
 url: 'https://meliksahkilic.github.io'
+ios: ''
+android: ''
 ---
 
 - Developing custom machine learning models for various clients.

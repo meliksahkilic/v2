@@ -8,6 +8,8 @@ tech:
   - Airflow
   - Docker
 showInProjects: true
+ios: ''
+android: ''
 ---
 
 An automated data orchestration pipeline built with Apache Airflow to ingest, transform, and load data from various sources into a centralized data warehouse.
