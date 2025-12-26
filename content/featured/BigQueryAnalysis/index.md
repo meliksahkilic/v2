@@ -1,18 +1,18 @@
 ---
-date: '2025-01-02'
-title: 'BigQuery Data Analysis'
-cover: '../../../src/images/placeholder.png'
+date: '2024-01-01'
+title: 'Mobile App Market Analysis'
+cover: './cover.png'
 github: 'https://github.com/meliksahkilic'
 external: 'https://meliksahkilic.github.io'
 tech:
   - Python
-  - BigQuery
   - SQL
-  - Pandas
+  - AWS
+  - BigQuery
 showInProjects: true
 cta: ''
 ios: ''
 android: ''
 ---
 
-Detailed analysis of large-scale datasets using Google BigQuery. Implementation of efficient SQL queries and data visualization using Python libraries.
+Led analytical market research on the mobile app ecosystem, leveraging SQL and Python on AWS to process large-scale datasets and uncover market trends.
