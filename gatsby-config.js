@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Melikşah Kılıç',
+    title: 'Melikşah Kılıç | Data Scientist',
     description:
-      'Melikşah is a data scientist who specializes in building scalable machine learning pipelines and data-driven solutions that solve complex business problems.',
-    siteUrl: 'https://meliksahkilic.github.io', // BURASI GÜNCELLENDİ
+      'Melikşah Kılıç is a Data Scientist and Engineer specializing in building scalable machine learning pipelines, predictive modeling, and data-driven solutions.',
+    siteUrl: 'https://meliksahkilic.github.io',
     image: '/og.png',
-    twitterUsername: '@', // Varsa buraya twitter adınızı yazın yoksa @ olarak kalsın
+    twitterUsername: '@meliksahm',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -83,7 +83,7 @@ module.exports = {
           {
             // https://www.gatsbyjs.org/packages/gatsby-remark-code-titles/
             resolve: 'gatsby-remark-code-titles',
-          }, 
+          },
           {
             // https://www.gatsbyjs.org/packages/gatsby-remark-prismjs
             resolve: `gatsby-remark-prismjs`,
