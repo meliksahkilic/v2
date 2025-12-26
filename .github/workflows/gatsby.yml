@@ -8,16 +8,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+      
+      # Temanızın eski bağımlılıklarını sorunsuz yüklemek için bu komut şart:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+
       - name: Build
         run: npm run build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
