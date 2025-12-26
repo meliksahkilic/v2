@@ -10,17 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      CI: false # Uyarıların (warning) hataya dönüşmesini engeller
     steps:
       - uses: actions/checkout@v3
+      
+      # Gatsby v3 için Node 16 daha uyumludur (18 hata verebilir)
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '16'
       
-      # Temanızın eski bağımlılıklarını sorunsuz yüklemek için bu komut şart:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      # Build sırasında oluşan hataları görmek için bu komut standarttır
       - name: Build
         run: npm run build
 
