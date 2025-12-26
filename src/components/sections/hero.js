@@ -65,19 +65,19 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a data scientist and engineer specializing in building scalable machine learning
-        pipelines and data-driven solutions. Currently, I’m focused on extracting value from
-        complex datasets to solve real-world business problems.
+        I’m a Data Scientist with 2 years’ experience applying SQL, Python, and cloud platforms
+        (AWS, BigQuery) to deliver actionable insights and scalable data solutions. I specialize
+        in automation, predictive modeling, and uncovering market trends.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="mailto:meliksahm7@gmail.com"
       target="_blank"
       rel="noreferrer">
-      Check out my work!
+      Get In Touch
     </a>
   );
 
