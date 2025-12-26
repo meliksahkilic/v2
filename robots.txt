@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://meliksahkilic.github.io/sitemap.xml
+Host: https://meliksahkilic.github.io
